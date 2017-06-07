@@ -10,12 +10,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/docker/libcompose/config"
-	"github.com/docker/libcompose/logger"
-	"github.com/docker/libcompose/lookup"
-	"github.com/docker/libcompose/project/events"
-	"github.com/docker/libcompose/utils"
-	"github.com/docker/libcompose/yaml"
+	"github.com/r3labs/libcompose/config"
+	"github.com/r3labs/libcompose/logger"
+	"github.com/r3labs/libcompose/lookup"
+	"github.com/r3labs/libcompose/project/events"
+	"github.com/r3labs/libcompose/utils"
+	"github.com/r3labs/libcompose/yaml"
 	log "github.com/sirupsen/logrus"
 )
 

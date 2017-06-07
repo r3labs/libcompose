@@ -18,6 +18,7 @@ import (
 	"github.com/docker/docker/pkg/jsonmessage"
 	"github.com/pkg/errors"
 	"strings"
+	"github.com/r3labs/libcompose/test"
 )
 
 type daemonClient struct {

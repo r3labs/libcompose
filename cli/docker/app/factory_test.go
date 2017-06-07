@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/libcompose/project"
+	"github.com/r3labs/libcompose/project"
 	"github.com/urfave/cli"
 )
 

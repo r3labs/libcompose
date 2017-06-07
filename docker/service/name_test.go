@@ -7,8 +7,8 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/libcompose/labels"
+	"github.com/r3labs/libcompose/labels"
+	"github.com/r3labs/libcompose/test"
 	"github.com/pkg/errors"
 )
 

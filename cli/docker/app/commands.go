@@ -1,9 +1,9 @@
 package app
 
 import (
-	"github.com/docker/libcompose/cli/command"
-	"github.com/docker/libcompose/docker/client"
-	"github.com/docker/libcompose/docker/ctx"
+	"github.com/r3labs/libcompose/cli/command"
+	"github.com/r3labs/libcompose/docker/client"
+	"github.com/r3labs/libcompose/docker/ctx"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

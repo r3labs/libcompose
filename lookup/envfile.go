@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/docker/cli/opts"
-	"github.com/docker/libcompose/config"
+	"github.com/r3labs/libcompose/config"
 )
 
 // EnvfileLookup is a structure that implements the project.EnvironmentLookup interface.

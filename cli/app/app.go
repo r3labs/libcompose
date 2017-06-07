@@ -10,9 +10,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/docker/libcompose/project"
-	"github.com/docker/libcompose/project/options"
-	"github.com/docker/libcompose/version"
+	"github.com/r3labs/libcompose/project"
+	"github.com/r3labs/libcompose/project/options"
+	"github.com/r3labs/libcompose/version"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

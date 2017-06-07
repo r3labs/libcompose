@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/client"
-	"github.com/docker/libcompose/config"
+	"github.com/r3labs/libcompose/config"
+	"github.com/r3labs/libcompose/test"
 )
 
 func TestVolumesFromServices(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/docker/libcompose/yaml"
+	"github.com/r3labs/libcompose/yaml"
 )
 
 func TestBuild(t *testing.T) {

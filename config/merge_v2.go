@@ -3,9 +3,10 @@ package config
 import (
 	"fmt"
 	"path"
+	"path/filepath"
 	"strings"
 
-	"github.com/docker/libcompose/utils"
+	"github.com/r3labs/libcompose/utils"
 	"github.com/sirupsen/logrus"
 )
 
@@ -169,7 +170,7 @@ func resolveContextV2(inFile string, serviceData RawService) RawService {
 		return serviceData
 	}
 
-	if IsValidRemote(context) {
+	if IsValidRemote(context) || filepath.IsAbs(context) {
 		return serviceData
 	}
 

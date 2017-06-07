@@ -3,7 +3,7 @@ package project
 import (
 	"golang.org/x/net/context"
 
-	"github.com/docker/libcompose/project/events"
+	"github.com/r3labs/libcompose/project/events"
 )
 
 // Restart restarts the specified services (like docker restart).

@@ -5,8 +5,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/docker/libcompose/project/events"
-	"github.com/docker/libcompose/project/options"
+	"github.com/r3labs/libcompose/project/events"
+	"github.com/r3labs/libcompose/project/options"
 )
 
 // Down stops the specified services and clean related containers (like docker stop + docker rm).
