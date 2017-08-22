@@ -1,8 +1,8 @@
 package ctx
 
 import (
-	cliconfig "github.com/docker/docker/cli/config"
-	"github.com/docker/docker/cli/config/configfile"
+	cliconfig "github.com/docker/cli/cli/config"
+	"github.com/docker/cli/cli/config/configfile"
 	"github.com/r3labs/libcompose/docker/auth"
 	"github.com/r3labs/libcompose/docker/client"
 	"github.com/r3labs/libcompose/project"
